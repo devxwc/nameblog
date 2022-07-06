@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  columns: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+.main-section {
+  padding: 45px;
+  text-align: center;
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  font-family: "Montserrat", sans-serif;
+}
+
+.lessonBlock{
+  margin-top: 20px;
+  color: antiquewhite;
+  
+}
+
+.lessonBlock-top, .lessonBlock-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+.lessonBlock-top-item p{
+  padding: 164px  ;
+
+}
+
+.lessonBlock-top-item{
+
+  width: 570px;
+  height: 260px;
+  background: url('../img/Ховер.png') no-repeat;
+  background-size: cover;
+}
+
+.lessonBlock-top-item:nth-child(2){
+  background: url('../img/Карточка.png') no-repeat;
+}
+
+.lessonBlock-buttom-item:nth-child(){
+  background: url('../img/Мастер-классы.png') !important;
+}
+
+.session{
+  padding-top: 175px;
+}
+
+.subcontent{
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.session-title{
+  color: #55A630;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  margin-bottom: 75px;
+}
+
+.subTitle{
+  margin-bottom: 65px;
+}
+
+.button{
+  color: #fff;
+  padding: 16px 50px;
+  background: #55A630;
+  transition: .6s all;
+}
+
+.button:hover{
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  background: #407c24;
+}

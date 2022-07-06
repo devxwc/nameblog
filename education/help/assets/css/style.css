@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-section {
+  padding: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #0E0E0F;
+  margin-bottom: 40px;
+}
+
+.subTitles {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.subTitles__chek {
+  margin-right: 12px;
+  background: #00B9B61A;
+  color: #00B9B6;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
